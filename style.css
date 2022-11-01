@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    color: wheat;
+    box-sizing: border-box;
+    background-color: black;
+
+}
+#sohbetlistesi {
+    width: 25vw;
+    height: 100vh;
+    background-color: rgb(46, 45, 45);
+    border-right: 3px solid rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#sohbettarafi {
+    width: 75vw;
+    height: 100vh;
+    background-color: rgb(97, 97, 97);
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 10vw;
+}
+
+.inputclass, .archived  {
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid grey;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 5px solid grey;
+}
+
+.headerchat {
+    display: flex;
+    width: 73vw;
+    height: 12vh;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name {
+    margin-left: 1vw;
+}
+
+.navchat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 10vw;
+}
+
+.asilchat {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    height: 75vh;
+    background-color: black;
+    font-size: small;
+}
+
+.me {
+    margin-left: 55vw;
+}
+
+
+.forminput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 13vh;
+
+}
+
+.forminput input, .form button {
+    width: 35vw;
+    height: 8.8vh;
+}
